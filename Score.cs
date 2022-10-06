@@ -1,4 +1,4 @@
-static void scoreUpdate(userInputCorrect, score)
+public int scoreUpdate(userInputCorrect, score)
 {
     if (userInputCorrect == true)
     {
@@ -25,7 +25,7 @@ static void cardNum()
 
 Console.WriteLine("Ready to play? [y/n] ");
 int score = 300;
-char userContinues = Console.ReadLine();
+char userContinues = Console.ReadLine()??"";
 while (userContinues == 'y' && score > 0)
 {
     int currentCard = cardNum();
