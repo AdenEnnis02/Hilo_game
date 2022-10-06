@@ -10,11 +10,6 @@ class Game{
         return false;
     }
 
-    public int cardNum()
-    {
-        Card card = new Card();
-        
-    }
     public void HiOrLo()
     {
         Console.WriteLine("Higher or lower? [h/l] ");
